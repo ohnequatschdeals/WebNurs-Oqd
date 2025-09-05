@@ -1,0 +1,35 @@
+[
+  {
+    "id": "vf-giga-1000",
+    "brand": "Vodafone",
+    "title": "Red Internet 1000 Cable",
+    "priceNow": "29,99€",
+    "priceOld": "59,99€",
+    "priceUnit": "/Monat",
+    "badge": "TOP-ANGEBOT",
+    "badgeTone": "pink",
+    "features": ["1000 Mbit/s Download", "50 Mbit/s Upload", "Telefon-Flat", "6 Monate kostenlos"]
+  },
+  {
+    "id": "1und1-dsl-250",
+    "brand": "1&1",
+    "title": "DSL 250 Komplett-Paket",
+    "priceNow": "19,99€",
+    "priceOld": "39,99€",
+    "priceUnit": "/Monat",
+    "badge": "EMPFEHLUNG",
+    "badgeTone": "violet",
+    "features": ["250 Mbit/s Download", "Telefon-Flat", "WLAN-Router inklusive", "Keine Anschlussgebühr"]
+  },
+  {
+    "id": "smava-kredit",
+    "brand": "Smava",
+    "title": "Sofortkredit Premium",
+    "priceNow": "2,9%",
+    "priceOld": "4,9%",
+    "priceUnit": "eff. Jahreszins",
+    "badge": "TOP-ZINSEN",
+    "badgeTone": "teal",
+    "features": ["Bis 120.000€", "Sofortige Zusage", "Flexible Laufzeit"]
+  }
+]

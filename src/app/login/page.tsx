@@ -1,0 +1,1 @@
+export default function LoginPage(){return(<div className="container py-16"><div className="glass glow gradient-border mx-auto max-w-md rounded-xl p-6"><h1 className="mb-6 text-2xl font-semibold">Login</h1><p className="text-white/70">Supabase eklendiğinde gerçek auth gelecek.</p></div></div>);}

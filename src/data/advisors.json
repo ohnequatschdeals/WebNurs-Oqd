@@ -1,0 +1,16 @@
+[
+  {
+    "name": "Ayşe K.",
+    "channel": "WhatsApp",
+    "handle": "+49 151 2345678",
+    "avatar": "/avatars/berater1.png",
+    "status": "online"
+  },
+  {
+    "name": "Murat D.",
+    "channel": "WhatsApp",
+    "handle": "+49 160 5556677",
+    "avatar": "/avatars/berater2.png",
+    "status": "offline"
+  }
+]

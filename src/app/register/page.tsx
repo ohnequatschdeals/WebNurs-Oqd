@@ -1,0 +1,1 @@
+export default function RegisterPage(){return(<div className="container py-16"><div className="glass glow gradient-border mx-auto max-w-md rounded-xl p-6"><h1 className="mb-6 text-2xl font-semibold">Register</h1><p className="text-white/70">Supabase eklendiğinde kayıt gelecek.</p></div></div>);}

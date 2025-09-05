@@ -1,0 +1,1 @@
+export default function DashboardPage(){return(<div className="container py-16"><div className="glass glow gradient-border rounded-xl p-6"><h1 className="mb-2 text-2xl font-semibold">Dashboard</h1><p className="text-white/70">Kullanıcı alanı.</p></div></div>);}

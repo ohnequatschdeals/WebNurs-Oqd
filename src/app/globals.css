@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root{
+  --color-background:#1F1F2D;
+  --color-secondary:#7E3FFF;
+  --color-accent:#00FFC8;
+  --color-hover:#FF3D8D;
+  --color-premium:#FFD166;
+  --color-text:#E8E8FF;
+}
+body{
+  background-color:var(--color-background);
+  color:var(--color-text);
+  min-height:100vh;
+  -webkit-font-smoothing:antialiased;
+}
+.gradient-text{
+  font-weight:700;
+  background:linear-gradient(90deg,var(--color-hover),var(--color-secondary),var(--color-accent));
+  -webkit-background-clip:text; background-clip:text; -webkit-text-fill-color:transparent; color:transparent;
+}
+.btn-oqd-primary{ @apply inline-flex items-center justify-center rounded-xl px-5 py-2 font-semibold text-white transition;
+  background:linear-gradient(90deg,var(--color-hover),var(--color-secondary)); box-shadow:0 0 12px var(--color-hover); }
+.btn-oqd-primary:hover{ opacity:.9; }
+.btn-oqd-secondary{ @apply inline-flex items-center justify-center rounded-xl px-5 py-2 font-semibold text-white transition border;
+  border-color:var(--color-accent); background:rgba(0,255,200,.1); }
+.btn-oqd-secondary:hover{ background:rgba(0,255,200,.2); }
+.badge-premium{ @apply text-black font-semibold rounded-md px-2 py-0.5; background:var(--color-premium); }
+.neon-glow{ filter:drop-shadow(0 0 16px rgba(255,61,141,.45)) drop-shadow(0 0 28px rgba(0,255,200,.25)); }

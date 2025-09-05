@@ -1,0 +1,55 @@
+
+> webnurs-oqd-clean@0.1.0 dev /workspaces/WebNurs-Oqd
+> next dev -H 0.0.0.0 -p 3000
+
+  ▲ Next.js 14.2.13
+  - Local:        http://localhost:3000
+  - Network:      http://0.0.0.0:3000
+  - Experiments (use with caution):
+    · typedRoutes
+
+ ✓ Starting...
+ ✓ Ready in 1669ms
+ ○ Compiling / ...
+ ✓ Compiled / in 4.4s (492 modules)
+ GET / 200 in 4625ms
+ GET / 200 in 29ms
+ ⨯ ./src/app/page.tsx
+Error: 
+  [31mx[0m Expected ';', '}' or <eof>
+   ,-[[36;1;4m/workspaces/WebNurs-Oqd/src/app/page.tsx[0m:1:1]
+ [2m1[0m | 
+ [2m2[0m | # Hero component
+   : [31;1m^^^|^^[0m[33;1m ^^^^^^^^^[0m
+   :    [31;1m`-- [31;1mThis is the expression part of an expression statement[0m[0m
+ [2m3[0m | w src/components/Hero.tsx
+ [2m4[0m | export default function Hero() {
+ [2m5[0m |   return (
+   `----
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./src/app/page.tsx
+ ⨯ ./src/app/page.tsx
+Error: 
+  [31mx[0m Expected ';', '}' or <eof>
+   ,-[[36;1;4m/workspaces/WebNurs-Oqd/src/app/page.tsx[0m:1:1]
+ [2m1[0m | 
+ [2m2[0m | # Hero component
+   : [31;1m^^^|^^[0m[33;1m ^^^^^^^^^[0m
+   :    [31;1m`-- [31;1mThis is the expression part of an expression statement[0m[0m
+ [2m3[0m | w src/components/Hero.tsx
+ [2m4[0m | export default function Hero() {
+ [2m5[0m |   return (
+   `----
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./src/app/page.tsx
+ ✓ Compiled in 859ms (493 modules)
+ GET /?id=a9549dd4-ba5c-4d2f-9572-acbda5fc449d&vscodeBrowserReqId=1757052570908 200 in 210ms
+ GET /?id=a9549dd4-ba5c-4d2f-9572-acbda5fc449d&vscodeBrowserReqId=1757052745356 200 in 19ms
